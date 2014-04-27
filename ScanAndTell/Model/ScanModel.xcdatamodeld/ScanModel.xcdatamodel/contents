@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="PointDetails" representedClassName="PointDetails" syncable="YES">
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="poiDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="master" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PointMaster" inverseName="points" inverseEntity="PointMaster" syncable="YES"/>
+    </entity>
+    <entity name="PointMaster" representedClassName="PointMaster" syncable="YES">
+        <attribute name="productID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="points" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PointDetails" inverseName="master" inverseEntity="PointDetails" syncable="YES"/>
+    </entity>
+    <entity name="PropertyDetails" representedClassName="PropertyDetails" syncable="YES">
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="county" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateOfTransfer" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="district" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locality" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="oldOrNew" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="propertyType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="street" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PointDetails" positionX="142" positionY="-220" width="128" height="105"/>
+        <element name="PointMaster" positionX="-54" positionY="-43" width="128" height="90"/>
+        <element name="PropertyDetails" positionX="-63" positionY="-306" width="128" height="208"/>
+    </elements>
+</model>
