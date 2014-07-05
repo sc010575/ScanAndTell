@@ -58,28 +58,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScanAndTell/FileParsing/DAFileParsing.m"
-            timestampString = "419608469.616423"
+            timestampString = "426243161.349065"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "-storeInDatabase:inContext:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ScanAndTell/FileParsing/DAFileParsing.m"
-            timestampString = "419442623.22335"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "-parseFileInContext:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -90,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScanAndTell/FileParsing/DAFileParsing.m"
-            timestampString = "419615169.740404"
+            timestampString = "426243161.349065"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "-storeInDatabase:inContext:"
             landmarkType = "5">
          </BreakpointContent>

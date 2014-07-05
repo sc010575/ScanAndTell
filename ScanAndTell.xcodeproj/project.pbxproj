@@ -85,7 +85,6 @@
 		C5C7EC4A18D6DE7000DE7A39 /* DAResultResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C7EC4918D6DE7000DE7A39 /* DAResultResponse.m */; };
 		C5F0E62818FEDF990035FE12 /* _PropertyDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F0E62518FEDF990035FE12 /* _PropertyDetails.m */; };
 		C5F0E62918FEDF990035FE12 /* PropertyDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F0E62718FEDF990035FE12 /* PropertyDetails.m */; };
-		C5F0E62C18FEDFFE0035FE12 /* pp-2012.csv in Resources */ = {isa = PBXBuildFile; fileRef = C5F0E62B18FEDFFE0035FE12 /* pp-2012.csv */; };
 		C5F0E63018FF01370035FE12 /* DAFileParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F0E62F18FF01370035FE12 /* DAFileParsing.m */; };
 		C5F0E633190007E60035FE12 /* DAFileParsingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F0E632190007E60035FE12 /* DAFileParsingFactory.m */; };
 		C5FCE2B918E893E7000728D0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FCE2B818E893E7000728D0 /* CoreData.framework */; };
@@ -217,7 +216,6 @@
 		C5F0E62518FEDF990035FE12 /* _PropertyDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _PropertyDetails.m; sourceTree = "<group>"; };
 		C5F0E62618FEDF990035FE12 /* PropertyDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyDetails.h; sourceTree = "<group>"; };
 		C5F0E62718FEDF990035FE12 /* PropertyDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyDetails.m; sourceTree = "<group>"; };
-		C5F0E62B18FEDFFE0035FE12 /* pp-2012.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pp-2012.csv"; sourceTree = "<group>"; };
 		C5F0E62E18FF01370035FE12 /* DAFileParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAFileParsing.h; path = FileParsing/DAFileParsing.h; sourceTree = "<group>"; };
 		C5F0E62F18FF01370035FE12 /* DAFileParsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAFileParsing.m; path = FileParsing/DAFileParsing.m; sourceTree = "<group>"; };
 		C5F0E631190007E60035FE12 /* DAFileParsingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAFileParsingFactory.h; path = FileParsing/DAFileParsingFactory.h; sourceTree = "<group>"; };
@@ -501,7 +499,6 @@
 		C5F0E62A18FEDFFE0035FE12 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				C5F0E62B18FEDFFE0035FE12 /* pp-2012.csv */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -639,7 +636,6 @@
 			files = (
 				C55CC287189435D700996028 /* Main_iPad.storyboard in Resources */,
 				C55CC28C189435D700996028 /* Images.xcassets in Resources */,
-				C5F0E62C18FEDFFE0035FE12 /* pp-2012.csv in Resources */,
 				C55CC284189435D700996028 /* Main_iPhone.storyboard in Resources */,
 				C55CC27B189435D700996028 /* InfoPlist.strings in Resources */,
 			);
